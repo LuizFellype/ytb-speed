@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Invest Shortcuts",
-  "version": "0.4",
+  "name": "YTB Speed",
+  "version": "0.1",
   "background.service_worker": {
     "persistent": false,
     "scripts": [
@@ -11,14 +11,10 @@
   "content_scripts": [
     {
       "matches": [
-        "https://qxbroker.com/pt/*",
-        "https://pocketoption.com/en/cabinet/*"
+        "https://www.youtube.com/watch?*"
       ],
       "js": [
-        "graphics.js",
-        "timeframe.js",
         "createButton.js",
-        "expiration.js",
         "content.js"
       ],
       "css": [

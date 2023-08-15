@@ -1,61 +1,13 @@
 .shortcuts-wrapper {
-  position: absolute;
-  bottom: 0px;
-  left: 36px;
-  pointer-events: none;
-}
-
-.shortcuts-wrapper>div,
-.pocket-shortcuts-wrapper {
-  pointer-events: auto;
-}
-
-.pocket-shortcuts-wrapper .timeframe-wrapper {
-  width: 80%;
-}
-
-.graphics-wrapper {
-  background: transparent;
-  border: none;
   display: flex;
 }
 
-.graphics-wrapper>.button {
-  background-color: #ffffff1a !important;
-}
-
-.graphics-wrapper>.button:hover {
-  color: white !important;
-  background-color: #000 !important;
-}
-
-
-.timeframe-wrapper {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 5px;
-}
-
-.timeframe-wrapper button.trading-chart-settings__item,
-.timeframe-wrapper button.pocket-tf-button {
+.speed-shortcut { 
+  color: white;
+  background-color: transparent;
   border: none;
-  margin-bottom: 0px;
+  cursor: pointer;
 }
-
-
-.trading-chart-settings>.trading-chart-settings__item:nth-child(5) {
-  margin-bottom: 0px;
-}
-
-.short-expiration-wrapper {
-  display: flex;
-  justify-content: space-between;
-}
-
-.short-expiration-wrapper button.trading-chart-settings__item {
-  border: none;
-}
-
-.left-spacing {
-  margin-left: 7px;
+.speed-shortcut:hover { 
+  font-weight: 500;
 }
