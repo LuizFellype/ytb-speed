@@ -28,7 +28,7 @@ let findAnchor = setInterval(() => {
 
   if (videoOpen) {
     const injectShortcuts = () => {
-      const shortcutsWrapper = createSpeedsShortcuts([1.3, 1.5, 1.7, 2])
+      const shortcutsWrapper = createSpeedsShortcuts([1, 1.3, 1.5, 1.7, 2])
 
       const leftSidebarSettings = document.querySelector(".ytp-left-controls")
       leftSidebarSettings.appendChild(shortcutsWrapper)
